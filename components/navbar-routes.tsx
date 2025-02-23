@@ -6,7 +6,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import { LogOut } from "lucide-react";
 import Link from "next/link";
-import SearchInput from "./seach-input";
+import SearchInput from "./search-input";
 
 const NavbarRoutes = () => {
   const pathname = usePathname();
